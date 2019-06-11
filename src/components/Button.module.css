@@ -1,0 +1,13 @@
+.button {
+    all: unset;
+    padding: 10px;
+    color: hsl(186, 100%, 94%);
+    background-color: hsl(184, 91%, 17%); 
+    border-radius: 5px;
+    box-shadow:0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.button:hover {
+    background-color: hsl(184, 77%, 34%);
+}
