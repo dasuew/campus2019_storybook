@@ -29,7 +29,8 @@ addParameters({
         padding: '50px 0 0 0',
       },
     },
-  }
+  },
+  // viewport: { viewports: newViewports }
 });
 
 setConsoleOptions({

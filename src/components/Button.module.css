@@ -1,4 +1,5 @@
 .button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     all: unset;
     padding: 10px;
     color: hsl(186, 100%, 94%);
