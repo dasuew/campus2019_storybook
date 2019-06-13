@@ -22,6 +22,18 @@
 // module.exports = {
 //   module: {
 //     rules: [
+    // {
+        
+        //     loader: 'postcss-loader',
+        //     options: {
+        //       ident: 'postcss',
+        //       plugins: [
+        //         require('tailwindcss'),
+        //         require('autoprefixer'),
+        //       ],
+        //     },
+        //   },
+    
 //       {
 //         test: /\.js$/,
 //         exclude: /node_modules/,
@@ -50,7 +62,6 @@
 //         include: path.resolve(__dirname, "../")
 //       },
 //       {
-
 //         test: /\.(ttf)(\?v=\d+\.\d+\.\d+)?$/,
 //         use: {
 //           loader: "url-loader",
