@@ -1,19 +1,21 @@
 import { configure, addParameters, addDecorator, load } from '@storybook/react'
 import { create } from '@storybook/theming'
+import { setConsoleOptions } from '@storybook/addon-console'
 import { withA11y } from '@storybook/addon-a11y'
+
 // import { withTests } from '@storybook/addon-jest'
 
-// addDecorator(
+addDecorator(
 //   withTests({
 //     results,
 //   }),
-//   withA11y
-// );
+   withA11y
+ );
 
 addParameters({
   options: {
     theme: create({
-      colorSecondary: '#35506c', base: 'light', barSelectedColor: '#35506c', brandTitle: "IP RL Design System"
+      colorSecondary: '#35506c', base: 'light', barSelectedColor: '#35506c', brandTitle: "Campus 2019 - Storybook"
     }),
     isFullscreen: false,
     panelPosition: 'right',
@@ -28,6 +30,10 @@ addParameters({
       },
     },
   }
+});
+
+setConsoleOptions({
+  panelExclude: [],
 });
 
 // automatically import all story js files that end with *.stories.js

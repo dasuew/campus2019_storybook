@@ -16,3 +16,51 @@
 //   // Return the altered config
 //   return config;
 // };
+
+// const path = require("path");
+
+// module.exports = {
+//   module: {
+//     rules: [
+//       {
+//         test: /\.js$/,
+//         exclude: /node_modules/,
+//         use: [
+//           {
+//             loader: 'babel-loader'
+//           }
+//         ]
+//       },
+//       {
+//         test: /\.less$/,
+//         use: [
+//           {
+//             loader: "style-loader"
+//           },
+//           {
+//             loader: "css-loader"
+//           },
+//           {
+//             loader: "less-loader",
+//             options: {
+//               javascriptEnabled: true
+//             }
+//           },
+//         ],
+//         include: path.resolve(__dirname, "../")
+//       },
+//       {
+
+//         test: /\.(ttf)(\?v=\d+\.\d+\.\d+)?$/,
+//         use: {
+//           loader: "url-loader",
+//           options: {
+//             limit: 50000,
+//             mimetype: "application/ttf",
+//             name: "./res/fonts/[name].[ext]",
+//           }
+//         },
+//       }
+//     ]
+//   }
+// };
