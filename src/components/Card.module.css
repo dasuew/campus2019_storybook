@@ -1,0 +1,19 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid hsl(184, 91%, 17%); ; */
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow:0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+.title {
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.content {
+    text-align: justify;
+    padding: 20px;
+}
