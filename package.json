@@ -72,7 +72,7 @@
     "jest-css-modules": "^2.0.0",
     "jest-mock": "^24.7.0",
     "node-sass": "^4.11.0",
-    "postcss": "^7.0.17",
+    "postcss": "^8.2.10",
     "prettier": "^1.17.0",
     "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
